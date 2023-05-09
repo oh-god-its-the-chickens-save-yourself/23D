@@ -48,7 +48,7 @@ This action is shown by the Minimap\nMove F/B - Moves your plane of sight F/B to
 
 def game():
     # In need of serious optimisations. If you have any ideas
-    # please comment on the error listed or commit on new branch
+    # please comment on the issue listed or commit on new branch
     # thx :)
     global pos
     global camera
