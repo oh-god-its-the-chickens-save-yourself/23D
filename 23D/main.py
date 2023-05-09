@@ -47,6 +47,9 @@ This action is shown by the Minimap\nMove F/B - Moves your plane of sight F/B to
         game()
 
 def game():
+    # In need of serious optimisations. If you have any ideas
+    # please comment on the error listed or commit on new branch
+    # thx :)
     global pos
     global camera
     global sight
@@ -215,7 +218,7 @@ def game():
 def credits():
     clear()
     scrollTxt("Created by Shaunak Ghosh.\n")
-    scrollTxt("@shaunakg3\n")
+    scrollTxt("@horsesnacks\n")
     scrollTxt("shaunakg2011@gmail.com\n")
     scrollTxt("Thanks to Flatland by Edwin Abbott for the idea\n")
     scrollTxt(":)\n")
@@ -236,9 +239,7 @@ else:
 
 # Main Menu
 def main():
-    scrollTxt(default + "Imagine a life where you are a small"
-            + Fore.BLUE + " 2D Object " + default + "In a" + Fore.RED + " 3D World"
-            + default + "...")
+    scrollTxt(default + "Imagine a life where you are a small 2D Object in a 3D World...")
     sleep(2.5)
     clear()
     print("\n"
