@@ -218,7 +218,6 @@ def game():
 def credits():
     clear()
     scrollTxt("Created by Shaunak Ghosh.\n")
-    scrollTxt("@horsesnacks\n")
     scrollTxt("shaunakg2011@gmail.com\n")
     scrollTxt("Thanks to Flatland by Edwin Abbott for the idea\n")
     scrollTxt(":)\n")
